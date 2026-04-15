@@ -24,3 +24,4 @@ Cloud processing can significantly change aerosol particle properties. During my
 ## Related Publications
 
 1. **Yao, Y.**, Dawson, M. L., Dabdub, D., and Riemer, N. (2021). Evaluating the Impacts of Cloud Processing on Resuspended Aerosol Particles After Cloud Evaporation Using a Particle Resolved Model. *Journal of Geophysical Research: Atmospheres*, 126(24), e2021JD034992. [DOI](https://doi.org/10.1029/2021JD034992)
+2. **Yao, Y.**, Jeffrey H. Curtis, and Nicole Riemer, Quantifying the Effects of Cloud Processing on Aerosol Optical Properties Using a Particle-Resolved Model, in preparation for Atmos. Chem. Phys..
