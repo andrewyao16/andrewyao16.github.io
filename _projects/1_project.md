@@ -2,7 +2,7 @@
 layout: page
 title: Cloud chemistry
 description: Effects of cloud processing on aerosol particles
-img: assets/img/projects/cloud_chemistry.png
+img: assets/img/projects/cloud_chemistry.jpg
 importance: 1
 category: research
 ---
@@ -11,7 +11,7 @@ Cloud processing can significantly change aerosol particle properties. During my
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/cloud_chemistry.png" title="Cloud chemistry schematic" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/cloud_chemistry.jpg" title="Cloud chemistry schematic" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
