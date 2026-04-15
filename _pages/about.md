@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-Hi! I'm **Yu Yao**, a researcher passionate about aerosol particles, clouds, and climate.
+Hi! I'm a researcher passionate about aerosol particles, clouds, and climate.
 
 I graduated from the University of Illinois at Urbana-Champaign in 2021 and am currently a postdoctoral associate at Cornell University, working with Professors [Natalie Mahowald](https://www.duffield.cornell.edu/people/natalie-m-mahowald/) and [Peter Hess](https://cals.cornell.edu/people/peter-george-mueller-hess) on atmospheric chemistry and climate modeling.
 
