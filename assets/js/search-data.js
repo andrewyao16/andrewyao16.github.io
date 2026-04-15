@@ -414,9 +414,9 @@ ninja.data = [{
           description: "Effects of cloud processing on aerosol particles",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-particle-radiation",
+          title: 'Particle radiation',
+          description: "Aerosol mixing state effects on optical properties",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
