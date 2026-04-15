@@ -30,6 +30,6 @@ We are working to disentangle these effects using models at multiple scales, val
 
 ## Related Publications
 
-1. **Yao, Y.**, Mahowald, N., Hess, P., Meidan, D., and Mak, J. (in prep). Global assessment of iron-catalyzed chlorine production and its impact on the atmospheric methane budget, 
+1. **Yao, Y.**, Mahowald, N., Hess, P., Meidan, D., and Mak, J. . Global assessment of iron-catalyzed chlorine production and its impact on the atmospheric methane budget, 
 									to be submitted for Journal of Geophysical Research: Atmospheres
 2. **Yao, Y.**, Natalie M. Mahowald, Peter Hess, John E. Mak, B Gaubert, Process-Based CO isotope constraints on iron-catalyzed chlorine contributions to the methane sink, in prep.
