@@ -13,7 +13,7 @@ profile:
     <p>Cornell University</p>
     <p>Ithaca, NY</p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
