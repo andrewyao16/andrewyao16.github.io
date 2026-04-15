@@ -1,0 +1,114 @@
+<svg width="100%" viewBox="0 0 680 420" xmlns="http://www.w3.org/2000/svg">
+  <title>Comparison of MLP and KAN neural network architectures</title>
+  <desc>Side-by-side diagram showing how MLP uses fixed activations on nodes while KAN uses learnable activation functions on edges</desc>
+  
+  <style>
+    .title { font-family: system-ui, -apple-system, sans-serif; font-size: 14px; font-weight: 500; fill: #2C2C2A; }
+    .subtitle { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; fill: #5F5E5A; }
+    .label { font-family: system-ui, -apple-system, sans-serif; font-size: 12px; fill: #5F5E5A; }
+    .node-label { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #0C447C; }
+    .sum-label { font-family: system-ui, -apple-system, sans-serif; font-size: 11px; fill: #5F5E5A; }
+  </style>
+  
+  <!-- MLP Section -->
+  <text class="title" x="170" y="35" text-anchor="middle">Multi-Layer Perceptron (MLP)</text>
+  <text class="subtitle" x="170" y="55" text-anchor="middle">Fixed activations on nodes</text>
+  
+  <!-- MLP Input Layer -->
+  <circle cx="80" cy="140" r="18" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+  <circle cx="80" cy="200" r="18" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+  <circle cx="80" cy="260" r="18" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+  <text class="label" x="80" y="310" text-anchor="middle">Input</text>
+  
+  <!-- MLP Hidden Layer -->
+  <circle cx="170" cy="120" r="18" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+  <text class="node-label" x="170" y="125" text-anchor="middle">σ</text>
+  <circle cx="170" cy="180" r="18" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+  <text class="node-label" x="170" y="185" text-anchor="middle">σ</text>
+  <circle cx="170" cy="240" r="18" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+  <text class="node-label" x="170" y="245" text-anchor="middle">σ</text>
+  <circle cx="170" cy="300" r="18" fill="#E6F1FB" stroke="#185FA5" stroke-width="1"/>
+  <text class="node-label" x="170" y="305" text-anchor="middle">σ</text>
+  <text class="label" x="170" y="350" text-anchor="middle">Hidden</text>
+  
+  <!-- MLP Output Layer -->
+  <circle cx="260" cy="200" r="18" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+  <text class="label" x="260" y="310" text-anchor="middle">Output</text>
+  
+  <!-- MLP Connections (simple lines with weights) -->
+  <line x1="98" y1="140" x2="152" y2="120" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="98" y1="140" x2="152" y2="180" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="98" y1="140" x2="152" y2="240" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="98" y1="140" x2="152" y2="300" stroke="#B4B2A9" stroke-width="0.5"/>
+  
+  <line x1="98" y1="200" x2="152" y2="120" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="98" y1="200" x2="152" y2="180" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="98" y1="200" x2="152" y2="240" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="98" y1="200" x2="152" y2="300" stroke="#B4B2A9" stroke-width="0.5"/>
+  
+  <line x1="98" y1="260" x2="152" y2="120" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="98" y1="260" x2="152" y2="180" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="98" y1="260" x2="152" y2="240" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="98" y1="260" x2="152" y2="300" stroke="#B4B2A9" stroke-width="0.5"/>
+  
+  <line x1="188" y1="120" x2="242" y2="200" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="188" y1="180" x2="242" y2="200" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="188" y1="240" x2="242" y2="200" stroke="#B4B2A9" stroke-width="0.5"/>
+  <line x1="188" y1="300" x2="242" y2="200" stroke="#B4B2A9" stroke-width="0.5"/>
+  
+  <!-- MLP Legend -->
+  <text class="label" x="115" y="390" text-anchor="middle">w = linear weight</text>
+  
+  <!-- Divider -->
+  <line x1="340" y1="30" x2="340" y2="380" stroke="#D3D1C7" stroke-width="1" stroke-dasharray="4 4"/>
+  
+  <!-- KAN Section -->
+  <text class="title" x="510" y="35" text-anchor="middle">Kolmogorov-Arnold Network (KAN)</text>
+  <text class="subtitle" x="510" y="55" text-anchor="middle">Learnable activations on edges</text>
+  
+  <!-- KAN Input Layer -->
+  <circle cx="420" cy="140" r="14" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+  <circle cx="420" cy="200" r="14" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+  <circle cx="420" cy="260" r="14" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+  <text class="label" x="420" y="310" text-anchor="middle">Input</text>
+  
+  <!-- KAN Hidden Layer (smaller nodes - just sum) -->
+  <circle cx="510" cy="120" r="14" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+  <text class="sum-label" x="510" y="125" text-anchor="middle">Σ</text>
+  <circle cx="510" cy="180" r="14" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+  <text class="sum-label" x="510" y="185" text-anchor="middle">Σ</text>
+  <circle cx="510" cy="240" r="14" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+  <text class="sum-label" x="510" y="245" text-anchor="middle">Σ</text>
+  <circle cx="510" cy="300" r="14" fill="#F1EFE8" stroke="#B4B2A9" stroke-width="1"/>
+  <text class="sum-label" x="510" y="305" text-anchor="middle">Σ</text>
+  <text class="label" x="510" y="350" text-anchor="middle">Hidden</text>
+  
+  <!-- KAN Output Layer -->
+  <circle cx="600" cy="200" r="14" fill="#E1F5EE" stroke="#0F6E56" stroke-width="1"/>
+  <text class="label" x="600" y="310" text-anchor="middle">Output</text>
+  
+  <!-- KAN Connections (wavy lines representing learnable functions) -->
+  <!-- Input to Hidden - with spline curves representing φ functions -->
+  <path d="M434 140 Q455 130, 465 135 Q475 140, 496 120" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  <path d="M434 140 Q450 160, 465 155 Q480 150, 496 180" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  <path d="M434 140 Q455 180, 470 200 Q485 220, 496 240" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  
+  <path d="M434 200 Q450 150, 465 140 Q480 130, 496 120" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  <path d="M434 200 Q455 190, 470 185 Q485 180, 496 180" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  <path d="M434 200 Q455 220, 470 235 Q485 250, 496 240" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  <path d="M434 200 Q450 250, 465 270 Q480 290, 496 300" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  
+  <path d="M434 260 Q455 210, 475 190 Q490 170, 496 180" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  <path d="M434 260 Q455 250, 470 245 Q485 240, 496 240" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  <path d="M434 260 Q455 280, 470 290 Q485 300, 496 300" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  
+  <!-- Hidden to Output -->
+  <path d="M524 120 Q550 140, 565 160 Q580 180, 586 200" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  <path d="M524 180 Q545 185, 560 190 Q575 195, 586 200" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  <path d="M524 240 Q545 230, 560 220 Q575 210, 586 200" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  <path d="M524 300 Q550 270, 565 240 Q580 210, 586 200" fill="none" stroke="#D85A30" stroke-width="1.5"/>
+  
+  <!-- KAN Legend -->
+  <text class="label" x="510" y="390" text-anchor="middle">φ(x) = learnable spline function</text>
+  
+</svg>
