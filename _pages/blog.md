@@ -43,7 +43,7 @@ KAN addresses these challenges by:
 
 #### Future Directions
 
-I plan to explore how KAN can be integrated into atmospheric chemistry models like CESM to improve both accuracy and interpretability of aerosol and chemistry parameterizations.
+I plan to explore how KAN can be integrated into atmospheric chemistry and climate models, like CESM and GEOS-Chem, to improve both accuracy and interpretability of aerosol and chemistry parameterizations.
 
 ---
 
