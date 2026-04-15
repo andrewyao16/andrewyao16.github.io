@@ -2,7 +2,7 @@
 layout: page
 title: Aerosol-methane interaction
 description: Iron-catalyzed chlorine chemistry and methane budget
-img: assets/img/projects/aerosol_methane.png
+img: assets/img/aerosol_methane.png
 importance: 3
 category: research
 ---
@@ -13,7 +13,7 @@ Chlorine radicals oxidize methane 10–16 times faster than hydroxyl radicals, b
 
 <div class="row justify-content-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/aerosol_methane.png" title="Aerosol-methane interaction" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/aerosol_methane.png" title="Aerosol-methane interaction" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
