@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Postdoctoral Associate, <a href='https://www.eas.cornell.edu/'>Cornell University</a>
+subtitle: Postdoctoral Associate, Cornell University
 
 profile:
   align: right
@@ -25,7 +25,7 @@ latest_posts:
 
 Hi! I'm **Yu Yao**, a researcher passionate about aerosol particles, clouds, and climate.
 
-I graduated from the [University of Illinois at Urbana-Champaign](https://atmos.illinois.edu/) in 2021 and am currently a postdoctoral associate at [Cornell University](https://www.cornell.edu/), working with Professors [Natalie Mahowald](https://www.duffield.cornell.edu/people/natalie-m-mahowald/) and [Peter Hess](https://cals.cornell.edu/people/peter-george-mueller-hess) on atmospheric chemistry and climate modeling.
+I graduated from the University of Illinois at Urbana-Champaign in 2021 and am currently a postdoctoral associate at Cornell University, working with Professors [Natalie Mahowald](https://www.duffield.cornell.edu/people/natalie-m-mahowald/) and [Peter Hess](https://cals.cornell.edu/people/peter-george-mueller-hess) on atmospheric chemistry and climate modeling.
 
 ## Research Interests
 
