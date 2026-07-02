@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Department of Earth and Atmospheric Sciences</p>
     <p>Cornell University</p>
-    <p>Ithaca, NY</p>
+    <p>Email:yu.yao@cornell.edu</p>
 
 selected_papers: false
 social: true
